@@ -6,3 +6,6 @@ print(my_list_2) # []
 # convert string to list(char array)
 chars_list = list('hello')
 print(chars_list) # ['h', 'e', 'l', 'l', 'o']
+
+length_of_list = len(chars_list)
+print(length_of_list) # 5
