@@ -5,7 +5,17 @@ print('~0 produces:', ~0) # ~0 produces: -1
 print('~1 produces:', ~1) # ~1 produces: -2
 print('~(-1) produces:', ~(-1)) # ~(-1) produces: 0
 
-# Left shift
+# Left shift once
 print('100 << 1 produces', (100 << 1)) # 100 << 1 produces 200
-# right shift
+# right shift once
 print('100 >> 1 produces', (100 >> 1)) # 100 >> 1 produces 50
+
+# Left shift twice
+print('100 << 2 produces', (100 << 2)) # 100 << 1 produces 400
+# right shift twice
+print('100 >> 2 produces', (100 >> 2)) # 100 >> 1 produces 25
+
+# Left shift three times
+print('100 << 3 produces', (100 << 3)) # 100 << 1 produces 800
+# right shift three times
+print('100 >> 3 produces', (100 >> 3)) # 100 >> 1 produces 12
