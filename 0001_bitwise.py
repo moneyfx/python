@@ -6,6 +6,7 @@ print('~1 produces:', ~1) # ~1 produces: -2
 print('~(-1) produces:', ~(-1)) # ~(-1) produces: 0
 
 # left shifting 'n' times means multiplying by 2^n
+# right shifting 'n' times means dividing by 2^n
 
 # Left shift once
 print('100 << 1 produces', (100 << 1)) # 100 << 1 produces 200
@@ -13,11 +14,11 @@ print('100 << 1 produces', (100 << 1)) # 100 << 1 produces 200
 print('100 >> 1 produces', (100 >> 1)) # 100 >> 1 produces 50
 
 # Left shift twice
-print('100 << 2 produces', (100 << 2)) # 100 << 1 produces 400
+print('100 << 2 produces', (100 << 2)) # 100 << 2 produces 400
 # right shift twice
-print('100 >> 2 produces', (100 >> 2)) # 100 >> 1 produces 25
+print('100 >> 2 produces', (100 >> 2)) # 100 >> 2 produces 25
 
 # Left shift three times
-print('100 << 3 produces', (100 << 3)) # 100 << 1 produces 800
+print('100 << 3 produces', (100 << 3)) # 100 << 3 produces 800
 # right shift three times
-print('100 >> 3 produces', (100 >> 3)) # 100 >> 1 produces 12
+print('100 >> 3 produces', (100 >> 3)) # 100 >> 3 produces 12
