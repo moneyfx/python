@@ -10,6 +10,6 @@ print(chars_list) # ['h', 'e', 'l', 'l', 'o']
 length_of_list = len(chars_list)
 print(length_of_list) # 5
 
-# convert list of chars to string
+# convert list of chars(not int) to string
 str_from_list = ''.join(chars_list)
 print(str_from_list) # hello
