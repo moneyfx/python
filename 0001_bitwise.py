@@ -22,3 +22,13 @@ print('100 >> 2 produces', (100 >> 2)) # 100 >> 2 produces 25
 print('100 << 3 produces', (100 << 3)) # 100 << 3 produces 800
 # right shift three times
 print('100 >> 3 produces', (100 >> 3)) # 100 >> 3 produces 12
+
+# swap two variables using XOR
+a = 1
+b = 7
+
+a = a ^ b
+b = b ^ a
+a = a ^ b
+
+print(a, b) # 7 1
