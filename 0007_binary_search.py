@@ -12,5 +12,6 @@ def binary_search(arr, target, start, end):
     if arr[mid] < target:
         return binary_search(arr, target, mid + 1, end)
 
-arr = [11, 13, 14, 15, 17, 19, 22, 25, 36, 100]
-print(binary_search(arr, 100, 0, len(arr) - 1))
+A = [11, 13, 14, 15, 17, 19, 22, 25, 36, 100]
+r, i = binary_search(A, 13, 0, len(A) - 1)
+print(r, i) # True 1
