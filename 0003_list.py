@@ -22,3 +22,6 @@ print(list(reversed(list_of_ints))) # [3, 2, 1]
 #reverse the list in place:
 list_of_ints.reverse()
 print(list_of_ints) # [3, 2, 1]
+
+list_of_ints.append(4)
+print(list_of_ints) # [3, 2, 1, 4]
