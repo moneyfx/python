@@ -25,3 +25,5 @@ print(list_of_ints) # [3, 2, 1]
 
 list_of_ints.append(4)
 print(list_of_ints) # [3, 2, 1, 4]
+
+print('sum of list is', sum(list_of_ints)) # sum of list is 10
