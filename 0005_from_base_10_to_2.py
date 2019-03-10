@@ -9,7 +9,7 @@ while a != 0:
     l.append(r)
     a = int(a / 2)
 
-#hanle zero
+#handle zero
 if len(l) == 0:
     l.append(0)
 
