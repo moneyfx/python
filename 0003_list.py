@@ -15,6 +15,11 @@ str_from_list = ''.join(chars_list)
 print(str_from_list) # hello
 
 list_of_ints = [1, 2, 3]
+for k, v in enumerate(list_of_ints):
+    print('key:', k, 'value:', v)
+    # key: 0 value: 1
+    # key: 1 value: 2
+    # key: 2 value: 3
 
 print(list_of_ints[::-1]) # [3, 2, 1]
 print(list(reversed(list_of_ints))) # [3, 2, 1]
