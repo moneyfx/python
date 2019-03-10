@@ -28,6 +28,5 @@ print(list_of_ints) # [3, 2, 1, 4]
 
 print('sum of list is', sum(list_of_ints)) # sum of list is 10
 
-
 list_of_numbers_from_1_to_10 = [x for x in range(1, 11)]
 print(list_of_numbers_from_1_to_10) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
