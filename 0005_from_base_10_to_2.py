@@ -1,7 +1,7 @@
 a = -34
 sign = '0b' if a >= 0 else '-0b'
 
-print(bin(a))
+print(bin(a)) # -0b100010
 
 l = []
 while a != 0:
@@ -19,4 +19,4 @@ if len(l) == 0:
 # reverse in place
 l.reverse()
 
-print(sign + ''.join(str(x) for x in l))
+print(sign + ''.join(str(x) for x in l)) # -0b100010
