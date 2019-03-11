@@ -18,3 +18,7 @@ print(type(set_with_values_2)) # <class 'set'>
 not_empty_set = {}
 print(not_empty_set) # {}
 print(type(not_empty_set)) # <class 'dict'>
+
+# make a list out of a set
+list_from_set = list(set_with_values)
+print(list_from_set) # [1, 2, 3]

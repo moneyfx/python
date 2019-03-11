@@ -35,3 +35,8 @@ print('sum of list is', sum(list_of_ints)) # sum of list is 10
 
 list_of_numbers_from_1_to_10 = [x for x in range(1, 11)]
 print(list_of_numbers_from_1_to_10) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# make a set out of list
+list_with_dups = [1, 5, 1, 4, 5, 2, 6]
+set_from_list = set(list_with_dups)
+print(set_from_list) # {1, 2, 4, 5, 6}
