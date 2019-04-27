@@ -43,3 +43,12 @@ print(set_from_list) # {1, 2, 4, 5, 6}
 
 print(max(list_of_ints)) # 4
 print(min(list_of_ints)) # 1
+
+list_to_sort = [4, 5, 1, 2, 0, 3]
+sorted_list = sorted(list_to_sort)
+print('original list:', list_to_sort)
+print('sorted list:', sorted_list)
+
+list_to_sort.sort()
+print('original list:', list_to_sort)
+
