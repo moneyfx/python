@@ -46,9 +46,9 @@ print(min(list_of_ints)) # 1
 
 list_to_sort = [4, 5, 1, 2, 0, 3]
 sorted_list = sorted(list_to_sort)
-print('original list:', list_to_sort)
-print('sorted list:', sorted_list)
+print('original list:', list_to_sort) # original list: [4, 5, 1, 2, 0, 3]
+print('sorted list:', sorted_list) # sorted list: [0, 1, 2, 3, 4, 5]
 
 list_to_sort.sort()
-print('original list:', list_to_sort)
+print('original list:', list_to_sort) # original list: [0, 1, 2, 3, 4, 5]
 
